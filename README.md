@@ -1,24 +1,23 @@
-# vue-lazy-img
+# 基于 vue 自定义指令实现图片懒加载
 
-## Project setup
+## 安装依赖
+
 ```
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+### 运行查看效果
+
 ```
-yarn serve
+yarn start
 ```
 
-### Compiles and minifies for production
-```
-yarn build
-```
+### components 说明
 
-### Lints and fixes files
-```
-yarn lint
-```
+IntersectionObserver 方案
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- lazy-img-plus.vue
+
+onscroll 方案
+
+- lazy-img.vue
